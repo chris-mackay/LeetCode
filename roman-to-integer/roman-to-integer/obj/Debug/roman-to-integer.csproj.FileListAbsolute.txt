@@ -1,0 +1,6 @@
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\bin\Debug\roman-to-integer.exe.config
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\bin\Debug\roman-to-integer.exe
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\bin\Debug\roman-to-integer.pdb
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\obj\Debug\roman-to-integer.csproj.CoreCompileInputs.cache
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\obj\Debug\roman-to-integer.exe
+C:\Programming\LeetCode\roman-to-integer\roman-to-integer\obj\Debug\roman-to-integer.pdb

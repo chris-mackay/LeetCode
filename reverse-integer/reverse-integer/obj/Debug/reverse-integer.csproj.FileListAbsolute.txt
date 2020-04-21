@@ -1,0 +1,7 @@
+C:\Programming\LeetCode\reverse-integer\reverse-integer\bin\Debug\reverse-integer.exe.config
+C:\Programming\LeetCode\reverse-integer\reverse-integer\bin\Debug\reverse-integer.exe
+C:\Programming\LeetCode\reverse-integer\reverse-integer\bin\Debug\reverse-integer.pdb
+C:\Programming\LeetCode\reverse-integer\reverse-integer\obj\Debug\reverse-integer.csprojAssemblyReference.cache
+C:\Programming\LeetCode\reverse-integer\reverse-integer\obj\Debug\reverse-integer.csproj.CoreCompileInputs.cache
+C:\Programming\LeetCode\reverse-integer\reverse-integer\obj\Debug\reverse-integer.exe
+C:\Programming\LeetCode\reverse-integer\reverse-integer\obj\Debug\reverse-integer.pdb
