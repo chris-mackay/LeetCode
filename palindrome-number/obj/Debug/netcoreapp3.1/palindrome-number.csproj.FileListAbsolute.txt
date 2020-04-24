@@ -1,0 +1,12 @@
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.csprojAssemblyReference.cache
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.csproj.CoreCompileInputs.cache
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.AssemblyInfoInputs.cache
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.AssemblyInfo.cs
+/Users/christophermackay/Documents/LeetCode/palindrome-number/bin/Debug/netcoreapp3.1/palindrome-number.deps.json
+/Users/christophermackay/Documents/LeetCode/palindrome-number/bin/Debug/netcoreapp3.1/palindrome-number.runtimeconfig.json
+/Users/christophermackay/Documents/LeetCode/palindrome-number/bin/Debug/netcoreapp3.1/palindrome-number.runtimeconfig.dev.json
+/Users/christophermackay/Documents/LeetCode/palindrome-number/bin/Debug/netcoreapp3.1/palindrome-number.dll
+/Users/christophermackay/Documents/LeetCode/palindrome-number/bin/Debug/netcoreapp3.1/palindrome-number.pdb
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.dll
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.pdb
+/Users/christophermackay/Documents/LeetCode/palindrome-number/obj/Debug/netcoreapp3.1/palindrome-number.genruntimeconfig.cache
