@@ -1,0 +1,12 @@
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.csprojAssemblyReference.cache
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.csproj.CoreCompileInputs.cache
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.AssemblyInfoInputs.cache
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.AssemblyInfo.cs
+/Users/christophermackay/Documents/LeetCode/remove-element/bin/Debug/netcoreapp3.1/remove-element.deps.json
+/Users/christophermackay/Documents/LeetCode/remove-element/bin/Debug/netcoreapp3.1/remove-element.runtimeconfig.json
+/Users/christophermackay/Documents/LeetCode/remove-element/bin/Debug/netcoreapp3.1/remove-element.runtimeconfig.dev.json
+/Users/christophermackay/Documents/LeetCode/remove-element/bin/Debug/netcoreapp3.1/remove-element.dll
+/Users/christophermackay/Documents/LeetCode/remove-element/bin/Debug/netcoreapp3.1/remove-element.pdb
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.dll
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.pdb
+/Users/christophermackay/Documents/LeetCode/remove-element/obj/Debug/netcoreapp3.1/remove-element.genruntimeconfig.cache
