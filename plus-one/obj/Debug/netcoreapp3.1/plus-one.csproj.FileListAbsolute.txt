@@ -1,0 +1,12 @@
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.csprojAssemblyReference.cache
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.csproj.CoreCompileInputs.cache
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.AssemblyInfoInputs.cache
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.AssemblyInfo.cs
+/Users/christophermackay/Documents/LeetCode/plus-one/bin/Debug/netcoreapp3.1/plus-one.deps.json
+/Users/christophermackay/Documents/LeetCode/plus-one/bin/Debug/netcoreapp3.1/plus-one.runtimeconfig.json
+/Users/christophermackay/Documents/LeetCode/plus-one/bin/Debug/netcoreapp3.1/plus-one.runtimeconfig.dev.json
+/Users/christophermackay/Documents/LeetCode/plus-one/bin/Debug/netcoreapp3.1/plus-one.dll
+/Users/christophermackay/Documents/LeetCode/plus-one/bin/Debug/netcoreapp3.1/plus-one.pdb
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.dll
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.pdb
+/Users/christophermackay/Documents/LeetCode/plus-one/obj/Debug/netcoreapp3.1/plus-one.genruntimeconfig.cache
