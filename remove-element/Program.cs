@@ -14,6 +14,8 @@ namespace remove_element
 
         public static int RemoveElement(int[] nums, int val)
         {
+            // This doesn't work on LeetCode for some reason
+            
             List<int> l = new List<int>();
 
             foreach (int n in nums)
