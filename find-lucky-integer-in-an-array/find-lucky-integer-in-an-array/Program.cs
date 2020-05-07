@@ -8,20 +8,28 @@ namespace findluckyintegerinanarray
     {
         public static void Main(string[] args)
         {
-            int[] a = { 1, 2, 2, 3, 3, 3 };
-            Dictionary<int, int> d = new Dictionary<int, int>();
+            int[] a = { 2, 2, 2, 3, 3 };
+            Console.WriteLine(FindLucky(a));
+        }
 
-            foreach (int n in a)
+        public static int FindLucky(int[] arr)
+        {
+            if (arr.Length == 0) return -1;
+            if (arr.Length == 1 && arr[0] > 1) return -1;
+
+            List<int> l = new List<int>();
+
+            foreach (int n in arr)
             {
-                int c = (from num in a where num == n select num).Count();
-                if (!d.Keys.Contains(n))
-                    d.Add(n, c);
+                int c = (from num in arr where num == n select num).Count();
+                if (n == c && !l.Contains(n))
+                    l.Add(n);
             }
 
-            foreach (KeyValuePair<int, int> entry in d)
-                if (entry.Key == entry.Value)
-                    Console.WriteLine("Number: {0}, and Count: {1}", entry.Key, entry.Value);
+            if (l.Count == 0) return -1;
 
+            return l.Max();
         }
+
     }
 }
