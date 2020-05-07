@@ -10,6 +10,7 @@ namespace findluckyintegerinanarray
         {
             int[] a = { 2, 2, 2, 3, 3 };
             Console.WriteLine(FindLucky(a));
+            Console.Read();
         }
 
         public static int FindLucky(int[] arr)
