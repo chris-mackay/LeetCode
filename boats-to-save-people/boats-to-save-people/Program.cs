@@ -1,40 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace boats_to_save_people
+namespace boatstosavepeople
 {
-    class Program
+    class MainClass
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            int[] people = { 3,2,2,1 };
-            int limit = 3;
+            int[] people = { 3, 8, 7, 1, 4 };
+            int limit = 9;
 
             Console.WriteLine(NumRescueBoats(people, limit).ToString());
-            Console.Read();
-
         }
 
         public static int NumRescueBoats(int[] people, int limit)
         {
-            int weightInBoat = people[0];
             int boats = 1;
+            int weightInBoat = 0;
 
-            for (int i = 1; i <= people.Length - 1; i++)
+            for (int i = 0; i <= people.Length - 1; i++)
             {
-                weightInBoat += people[i];
-                
-                if (weightInBoat >= limit)
+                int w = people[i];
+                weightInBoat += w;
+
+                if (weightInBoat > limit)
+                {
+                    weightInBoat = w;
+                    boats++;
+                }
+                else if (weightInBoat == limit && i < people.Length - 1)
                 {
                     boats++;
                     weightInBoat = 0;
                 }
             }
-
             return boats;
         }
+
     }
 }
