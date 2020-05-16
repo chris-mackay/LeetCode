@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "check-if-n-and-its-double-exist", "check-if-n-and-its-double-exist.csproj", "{DD098A6D-A22E-498F-91FC-BD5348D600D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD098A6D-A22E-498F-91FC-BD5348D600D1}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{DD098A6D-A22E-498F-91FC-BD5348D600D1}.Debug|anycpu.Build.0 = Debug|anycpu
+		{DD098A6D-A22E-498F-91FC-BD5348D600D1}.Release|anycpu.ActiveCfg = Release|anycpu
+		{DD098A6D-A22E-498F-91FC-BD5348D600D1}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
