@@ -12,8 +12,8 @@ namespace checkifnanditsdoubleexist
 
         public static bool CheckIfExist(int[] arr)
         {
-            for (int i = 0; i <= arr.Length; i++)
-                for (int j = 0; j <= arr.Length; j++)
+            for (int i = 0; i <= arr.Length - 1; i++)
+                for (int j = 0; j <= arr.Length - 1; j++)
                 {
                     if (i >= 0)
                         if (i != j)
