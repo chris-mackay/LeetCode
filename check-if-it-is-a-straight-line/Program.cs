@@ -39,32 +39,53 @@ namespace checkifitisastraightline
 
             //[[0,0],[0,5],[5,5],[5,0]]
             int[][] p =
-           {
+            {
                 new int[] { 0, 0 },
                 new int[] { 0, 5 },
                 new int[] { 5, 5 },
                 new int[] { 5, 0 },
             };
 
+            //[1,1],[2,2],[2,1],[3,2]
+            //int[][] p =
+            //{
+            //    new int[] { 1, 1 },
+            //    new int[] { 2, 2 },
+            //    new int[] { 2, 1 },
+            //    new int[] { 3, 2 },
+            //};
+
             Console.WriteLine("p makes a line: {0}", CheckStraightLine(p));
         }
 
         public static bool CheckStraightLine(int[][] coordinates)
         {
-            if (coordinates.Length == 2) return true;
-                  
-            int x2 = coordinates[1][0];
-            int y2 = coordinates[1][1];
-
-            int x3 = coordinates[2][0];
+            if (coordinates.Length == 1) return false;
+            
+            List<double> slopes = new List<double>();
 
             if (IsVerticalOrHorizontalLine(coordinates))
+            {
                 return true;
+            }
             else
             {
-                double y3 = (Slope(coordinates) * (x3 - x2)) + y2;
-                if (y3 == coordinates[2][1]) return true; else return false;
+                for (int i = 1; i < coordinates.Length; i++)
+                {
+                    int y1 = coordinates[i-1][1];
+                    int y2 = coordinates[i][1];
+
+                    int x1 = coordinates[i-1][0];
+                    int x2 = coordinates[i][0];
+
+                    double s = Slope(y2, y1, x2, x1);
+                    slopes.Add(s);
+                }
             }
+
+            bool allSlopeAreEqual = slopes.All(x => x == slopes.First() && slopes.First() != 0);
+
+            if (allSlopeAreEqual) return true; else return false;
         }
 
         public static bool IsVerticalOrHorizontalLine(int[][] coordinates)
@@ -87,14 +108,8 @@ namespace checkifitisastraightline
             if (IsHorizontal || IsVertical) return true; else return false;
         }
 
-        public static double Slope(int[][] p)
+        public static double Slope(int y2, int y1, int x2, int x1)
         {
-            int x1 = p[0][0];
-            int x2 = p[1][0];
-
-            int y1 = p[0][1];
-            int y2 = p[1][1];
-
             if ((x2 - x1) == 0) return 0;
             double m = ((double)y2 - (double)y1) / ((double)x2 - (double)x1);
 
