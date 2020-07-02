@@ -24,10 +24,7 @@ namespace missing_number
                 if (i < nums.Length - 1)
                 {
                     n = nums[i + 1];
-                    if (n - nums[i] != 1)
-                    {
-                        return n - 1;
-                    }
+                    if (n - nums[i] != 1) return n - 1;
                 }
             }
             return n;
