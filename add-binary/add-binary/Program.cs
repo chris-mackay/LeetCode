@@ -24,6 +24,9 @@ namespace add_binary
 
             if (1 <= a.Length && b.Length <= Math.Pow(10, 4))
             {
+
+                // Check each char in the string to make sure
+                // it only contains 1's and 0's
                 foreach (char c in a)
                 {
                     int i = Convert.ToInt32(c.ToString());
@@ -38,6 +41,8 @@ namespace add_binary
                     }
                 }
 
+                // Check each char in the string to make sure
+                // it only contains 1's and 0's
                 foreach (char  c in b)
                 {
                     int i = Convert.ToInt32(c.ToString());
@@ -52,6 +57,8 @@ namespace add_binary
                     }
                 }
 
+                // If both a and b only contain 1's and 0's
+                // then add the binary
                 if (aIsValid && bIsValid)
                 {
                     int ai = Convert.ToInt32(a.ToString(), 2);
